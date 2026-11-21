@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "danluan.app-menu",
+  "name": "App Menu",
+  "version": "0.1.0",
+  "author": "Daniel Luan",
+  "license": "MIT",
+  "description": "macOS-style bold name of the focused application.",
+  "kinds": ["bar-widget"],
+  "entryPoints": { "barWidget": "BarWidget.qml" },
+  "barWidget": {
+    "displayName": "App Menu",
+    "description": "Shows the focused application's name in bold, like the macOS menu bar.",
+    "category": "Compositor",
+    "allowMultiple": false,
+    "defaultSection": "left"
+  }
+}
